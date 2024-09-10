@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "sass-embedded": "^1.78.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "postcss-nesting": "^13.0.0"
+  }
+}

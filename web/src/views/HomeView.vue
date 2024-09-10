@@ -1,0 +1,39 @@
+<template>
+  <main>
+      <div class="content">
+        <HomeHeader/>
+        <AboutMe/>
+      </div>
+  </main>
+</template>
+
+<script setup lang="ts">
+import AboutMe from '@/features/AboutMe/AboutMe.vue'
+import HomeHeader from '@/features/HomeHeader/HomeHeader.vue'
+</script>
+
+<style lang="scss" scoped>
+@media only screen and (max-width: 600px) {
+  .content {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: calc(100% - 32px) !important
+  }
+}
+
+.content {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  max-width: 1080px;
+  width: 100%;
+}
+</style>
+
+
