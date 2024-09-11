@@ -80,20 +80,20 @@ export default {
           },
         }
       },
-      address: 'Boerderijwinkel van de plak Boerenkamplaan 54, 5712AG Someren',
+      address: 'Boerderijwinkel van de plak, Boerenkamplaan 54, 5712AG Someren',
       socials: {
         instagram: { 
           name: 'boerderijwinkelvandeplak',
-          url: 'https://www.instagram.com/boerderijwinkelvandeplak/'
+          url: 'https://www.instagram.com/boerderijwinkelvandeplak/',
         },
         facebook: { 
           name: 'boerderijwinkelvandeplak',
-          url: 'www.facebook.nl'
+          url: 'www.facebook.nl',
         },
         mail: { 
           name: 'info@boerderijwinkelvandeplak.nl',
-          url: 'info@boerderijwinkelvandeplak.nl'
-        },
+          url: 'info@boerderijwinkelvandeplak.nl',
+        }
       }
     }
   }

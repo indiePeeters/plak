@@ -4,7 +4,7 @@
                 <iframe
                     class="map" 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.895532433833!2d5.72421027615531!3d51.36821582086233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c72ffc4c2cd6d9%3A0x2d6c565770df80f5!2sBoerenkamplaan%2054%2C%205712%20AG%20Someren%2C%20Netherlands!5e0!3m2!1sen!2suk!4v1726046271455!5m2!1sen!2suk" 
-                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             <div class="homefooter-content">
                 <OpeningTimes/>
