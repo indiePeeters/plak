@@ -40,6 +40,7 @@ export default defineComponent({
     gap: 32px;
     align-items: center;
     span {
+      overflow-wrap: anywhere;
       color: $white;
   }
 }

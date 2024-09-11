@@ -28,9 +28,13 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .about-me-description {
     flex-wrap: wrap-reverse;
+  }
+
+  .portrait {
+    width: calc(100vw - 64px) !important;
   }
 }
 
@@ -77,7 +81,6 @@ export default defineComponent({
 .portrait {
   width: calc(50vw - 64px);
   max-width: 475px;
-  flex: 1 1 0; 
   border-radius: 24px
 }
 
