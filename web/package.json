@@ -12,11 +12,13 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "maplibre-gl": "^4.7.0",
     "postcss-conditionals": "^2.1.0",
     "postcss-plugin": "^1.0.0",
     "vue": "^3.3.4",
     "vue-i18n": "^9.4.1",
     "vue-router": "^4.2.4",
+    "vue3-mapbox": "^3.1.19",
     "vuetify": "^3.4.3"
   },
   "devDependencies": {

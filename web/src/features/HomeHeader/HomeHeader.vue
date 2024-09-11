@@ -31,10 +31,11 @@ export default defineComponent({
     scrollIntoView(scrollTargetName: string) {
       const scrollTarget = document.getElementById(scrollTargetName);
       if (scrollTarget) {
-        const offsetTop = scrollTarget.offsetTop;
- 
+        const rect = scrollTarget.getBoundingClientRect();
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+
         window.scrollTo({
-          top: offsetTop - 32,
+          top: rect.top + scrollTop - 32, // Adjust for any offset
           behavior: 'smooth',
         });
       }

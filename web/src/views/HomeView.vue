@@ -3,6 +3,8 @@
       <div class="content">
         <HomeHeader/>
         <AboutMe/>
+        <OurProducts/>
+        <HomeFooter/>
       </div>
   </main>
 </template>
@@ -10,11 +12,14 @@
 <script setup lang="ts">
 import AboutMe from '@/features/AboutMe/AboutMe.vue'
 import HomeHeader from '@/features/HomeHeader/HomeHeader.vue'
+import HomeFooter from '@/features/HomeFooter/HomeFooter.vue'
+import OurProducts from '@/features/OurProducts/OurProducts.vue';
 </script>
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 600px) {
   .content {
+    position: relative;
     padding-left: 8px;
     padding-right: 8px;
     width: calc(100% - 32px) !important
@@ -22,6 +27,7 @@ import HomeHeader from '@/features/HomeHeader/HomeHeader.vue'
 }
 
 .content {
+  position: relative;
   margin-top: 32px;
   margin-bottom: 32px;
   padding-left: 32px;

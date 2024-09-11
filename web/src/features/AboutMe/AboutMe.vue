@@ -1,10 +1,12 @@
 <template>
-  <div class="about-me-container">
-    <div id="about-us" class="about-me-description">
-      <img class="portrait" src="@/assets/portrait.png" />
-      <div class="content">
-        <h2>{{ globalTranslations.features.aboutUs.title }}</h2>
-        <div :v-html="globalTranslations.features.aboutUs.text">{{ globalTranslations.features.aboutUs.text }}</div>
+  <div class="full-width-container">
+    <div class="about-me-container">
+      <div id="about-us" class="about-me-description">
+        <img class="portrait" src="@/assets/portrait.png" />
+        <div class="content">
+          <h2>{{ globalTranslations.features.aboutUs.title }}</h2>
+          <div :v-html="globalTranslations.features.aboutUs.text">{{ globalTranslations.features.aboutUs.text }}</div>
+        </div>
       </div>
     </div>
   </div>
@@ -32,6 +34,16 @@ export default defineComponent({
   }
 }
 
+.full-width-container {
+    position: relative;
+    background-color: #7D8070;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    left: 50%;
+    right: 50%;
+    width: 100vw; 
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -40,39 +52,17 @@ export default defineComponent({
   gap:32px;
 }
 
-.line {
-  flex: 1 1 0;
-  height: 0px;
-  border: 1px #00A396 solid
-}
-
 .about-me-container {
   background-color: $primary;
-  width: 100%;
-  height: 100%;
+  max-width: 950px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 32px;
   padding:32px;
-  display: inline-flex;
-}
-
-.about-me-title-container {
-  align-self: stretch;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  display: inline-flex;
-}
-
-.about-me-title {
-  width: 114px;
-  color: #FFFCF9;
-  font-size: 26px;
-  font-family: Roboto;
-  font-weight: 500;
-   word-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .about-me-description {
@@ -85,7 +75,8 @@ export default defineComponent({
 }
 
 .portrait {
-  width:100%;
+  width: calc(50vw - 64px);
+  max-width: 475px;
   flex: 1 1 0; 
   border-radius: 24px
 }
