@@ -1,4 +1,8 @@
 export interface Translations {
+  meta: {
+    title: string,
+    description: string,
+  },
   features: {
     homeHeader: {
       title: string,

@@ -1,11 +1,12 @@
-import HomeFooter from "@/features/HomeFooter/HomeFooter.vue";
-import OpeningTimes from "@/features/HomeFooter/openingtimes/OpeningTimes.vue";
-
 export default {
+  meta: {
+    title: 'Boerderijwinkel van de Plak | Boerderijwinkel Someren',
+    description: 'Ervaar het beste van het platteland, Bij onze boerderijwinkel in Someren vind je verse, ambachtelijke producten, vol van smaak en met liefde gemaakt. Van knapperige groenten tot lokaal vlees, alles wat je nodig hebt voor een gezonde maaltijd is hier te vinden. Kom langs en proef het verschil dat echt vers maakt!'
+  },
   features: {
     homeHeader: {
-      title: 'Genieten van lokale producten doe je bij Boerderijwinkel van de plak!',
-      description: 'Ervaar het beste van het platteland, Bij ons vind je verse, ambachtelijke producten, vol van smaak en met liefde gemaakt. Van knapperige groenten tot lokaal vlees, alles wat je nodig hebt voor een gezonde maaltijd is hier te vinden. Kom langs en proef het verschil dat echt vers maakt!',
+      title: 'Genieten van lokale producten doe je bij Boerderijwinkel van de plak in Someren!',
+      description: 'Ervaar het beste van het platteland, Bij onze boerderijwinkel in Someren vind je verse, ambachtelijke producten, vol van smaak en met liefde gemaakt. Van knapperige groenten tot lokaal vlees, alles wat je nodig hebt voor een gezonde maaltijd is hier te vinden. Kom langs en proef het verschil dat echt vers maakt!',
       primaryAction: 'Onze Producten',
       secondaryAction: 'Hoe het ooit begon…',
     },
@@ -88,7 +89,7 @@ export default {
         },
         facebook: { 
           name: 'boerderijwinkelvandeplak',
-          url: 'www.facebook.nl',
+          url: 'https://www.facebook.com/profile.php?id=61564015875176',
         },
         mail: { 
           name: 'info@boerderijwinkelvandeplak.nl',

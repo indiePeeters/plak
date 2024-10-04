@@ -8,6 +8,7 @@ import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
+import { createHead } from '@vueuse/head';
 
 const vuetify = createVuetify({
     components,
@@ -18,6 +19,7 @@ const app = createApp(App)
   .use(router)
   .use(vuetify)
   .use(i18n)
+  .use(createHead())
 
 app.config.globalProperties.$globalTranslations = globalTranslations.value as Translations
 

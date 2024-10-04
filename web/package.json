@@ -12,6 +12,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vueuse/head": "^2.0.0",
     "maplibre-gl": "^4.7.0",
     "postcss-conditionals": "^2.1.0",
     "postcss-plugin": "^1.0.0",

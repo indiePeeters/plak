@@ -14,6 +14,19 @@ import AboutMe from '@/features/AboutMe/AboutMe.vue'
 import HomeHeader from '@/features/HomeHeader/HomeHeader.vue'
 import HomeFooter from '@/features/HomeFooter/HomeFooter.vue'
 import OurProducts from '@/features/OurProducts/OurProducts.vue';
+import { useHead } from '@vueuse/head'
+import { globalTranslations } from '@/locales/i18n'
+
+useHead({
+  title: globalTranslations.value.meta.title,
+  meta: [
+    {
+      name: 'description',
+      content: globalTranslations.value.meta.description
+    }
+  ]
+});
+
 </script>
 
 <style lang="scss" scoped>
