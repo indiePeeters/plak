@@ -9,6 +9,7 @@ export interface Translations {
       description: string,
       primaryAction: string,
       secondaryAction: string,
+      announcement: string
     },
     aboutUs: {
       title: string

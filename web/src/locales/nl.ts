@@ -9,6 +9,7 @@ export default {
       description: 'Ervaar het beste van het platteland, Bij onze boerderijwinkel in Someren vind je verse, ambachtelijke producten, vol van smaak en met liefde gemaakt. Van knapperige groenten tot lokaal vlees, alles wat je nodig hebt voor een gezonde maaltijd is hier te vinden. Kom langs en proef het verschil dat echt vers maakt!',
       primaryAction: 'Onze Producten',
       secondaryAction: 'Hoe het ooit begon…',
+      announcement: 'Let op! van 27 juli 2026 tot 17 augustus 2026 zijn wij gesloten. Vanaf 18 augustus 2026 staan wij weer voor je klaar!'
     },
     aboutUs: {
       title: 'Hoe het ooit begon…',
@@ -56,8 +57,8 @@ export default {
           },
           wednesday: {
             day: 'Woensdag',
-            from: '',
-            until: ''
+            from: '09:00',
+            until: '13:00'
           },
           thursday: {
             day: 'Donderdag',

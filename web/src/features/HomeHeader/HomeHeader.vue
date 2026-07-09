@@ -11,6 +11,11 @@
       </div>
       <img src="@/assets/logo.png"/>
     </div>
+    <div v-if="globalTranslations.features.homeHeader.announcement">
+      <p class="home-header-announcement">
+        {{ globalTranslations.features.homeHeader.announcement }}
+      </p>
+    </div>
   </div>
 </template>
 <script lang="ts">
@@ -72,6 +77,15 @@ export default defineComponent({
     display: flex !important;
     justify-content: center !important;
   }
+}
+
+.home-header-announcement {
+  border-radius: 64px;
+  margin-top: 32px;
+  background: #7D8070;
+  padding: 32px;
+  font-weight: bold;
+  color: white;
 }
 
 .no-underline {
