@@ -9,7 +9,7 @@ export interface Translations {
       description: string,
       primaryAction: string,
       secondaryAction: string,
-      announcement: string
+      announcement: string | null
     },
     aboutUs: {
       title: string
